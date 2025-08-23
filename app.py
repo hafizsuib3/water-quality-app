@@ -30,21 +30,20 @@ with st.expander("📊 Model Information"):
     st.write(f"**Rows Used in Training:** {registry.get('rows_used', '?')}")
 
 with st.form("predict"):
-    st.subheader("🔎 Input Parameters")
-    cols = st.columns(2)
+    st.subheader("Input Parameters")
     values = []
-    for i, feat in enumerate(feature_order):
-        with cols[i % 2]:
-            txt = st.text_input(feat, value="")
-            if txt.strip() == "":
-                values.append(np.nan)
-            else:
-                try:
-                    values.append(float(txt))
-                except ValueError:
-                    st.error(f"'{feat}' must be numeric (or leave blank).")
-                    st.stop()
+    for feat in feature_order:
+        txt = st.text_input(f"{feat} (leave blank if unknown)")
+        if txt.strip() == "":
+            values.append(np.nan)
+        else:
+            try:
+                values.append(float(txt))
+            except ValueError:
+                st.error(f"'{feat}' must be numeric (or leave blank).")
+                st.stop()
     go = st.form_submit_button("Predict")
+
 
 if go:
     X = np.array([values])
