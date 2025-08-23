@@ -144,7 +144,7 @@ Ultimately, the goal is to enable **faster, scalable, and accessible WQI classif
 ## Sneak Peek of the App 🌊
 
 <p align="center">
-  <img src="Preview03.gif" alt="Water Quality App Preview" style="width:70%;">
+  <img src="Preview04.gif" alt="Water Quality App Preview" style="width:70%;">
 </p>
 
 <p align="center"><em>A lightweight, user-friendly Streamlit app for fast WQI predictions.</em></p>
