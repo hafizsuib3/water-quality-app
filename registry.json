@@ -1,0 +1,35 @@
+{
+  "generated_at": "2025-08-23T13:38:50.879656Z",
+  "champion": "GradientBoosting",
+  "metrics_macro_f1": {
+    "SVM": 0.8269484139049356,
+    "DecisionTree": 0.7932661993249509,
+    "KNN": 0.6199479370675023,
+    "RandomForest": 0.8793269776415844,
+    "GradientBoosting": 0.8823714599576669
+  },
+  "metrics_accuracy": {
+    "SVM": 0.8734177215189873,
+    "DecisionTree": 0.8227848101265823,
+    "KNN": 0.6708860759493671,
+    "RandomForest": 0.8860759493670886,
+    "GradientBoosting": 0.8860759493670886
+  },
+  "classes": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "feature_order": [
+    "BIOCHEMICAL OXYGEN DEMAND(mg/L)",
+    "PH",
+    "DISSOLVED OXYGEN(mg/L)",
+    "ELECTRICAL CONDUCTIVITY(\u00b5S/CM) at 25\u00b0",
+    "NITROGEN, TOTAL OXIDISED(NO2+NO3)",
+    "TEMPERATURE",
+    "TOTAL COLIFORMS(mpn/100ml)",
+    "FECAL COLIFORMS(mpn/100ml)"
+  ],
+  "rows_used": 392
+}
