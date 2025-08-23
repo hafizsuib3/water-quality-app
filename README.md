@@ -10,7 +10,7 @@
 - [Methodology](#methodology)  
 - [Result and Impact](#result-and-impact)  
 - [Challenges and Solutions](#challenges-and-solutions)  
-- [Sneak Peek of the App](#sneak-peek-of-the-app)
+- [Sneak Peek of the App](#sneak-peek-of-the-app-)
 
 ---
 
