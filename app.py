@@ -49,12 +49,16 @@ if go:
     X = np.array([values])
     pred_idx = champion.predict(X)[0]
     pred_label = label_encoder.inverse_transform([pred_idx])[0]
-    st.success(f"💧 **Predicted WQI Class: {pred_label}**")
+    # Mapping class to description
+    class_description = {
+        "A": "Excellent",
+        "B": "Good",
+        "C": "Poor",
+        "D": "Very Poor",
+        "E": "Unsuitable for Drinking"
+    }
 
-    if hasattr(champion, "predict_proba"):
-        proba = champion.predict_proba(X)[0]
-        labels = label_encoder.inverse_transform(np.arange(len(proba)))
-        st.write("📈 Confidence by class:")
-        st.bar_chart({lbl: float(p) for lbl, p in zip(labels, proba)})
-    else:
-        st.caption("ℹ️ This model does not support probability prediction.")
+    # Show result with interpretation
+    description = class_description.get(pred_label, "Unknown")
+    st.success(f"💧 **Predicted WQI Class: {pred_label}** — *{description}*")
+
