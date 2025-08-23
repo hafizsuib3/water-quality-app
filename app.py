@@ -1,4 +1,3 @@
-%%writefile app.py
 import json, joblib, numpy as np, streamlit as st
 from pathlib import Path
 
