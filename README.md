@@ -10,9 +10,7 @@
 - [Methodology](#methodology)  
 - [Result and Impact](#result-and-impact)  
 - [Challenges and Solutions](#challenges-and-solutions)  
-- [How to Use](#how-to-use)  
-- [Acknowledgement](#acknowledgement)  
-- [🌊 Sneak Peek of the App](#sneak-peek-of-the-app)  
+- [Sneak Peek of the App 🌊](#sneak-peek-of-the-app-)
 
 ---
 
@@ -143,7 +141,7 @@ Ultimately, the goal is to enable **faster, scalable, and accessible WQI classif
 
 ---
 
-## 🌊 Sneak Peek of the App
+## Sneak Peek of the App 🌊
 
 <p align="center">
   <img src="Preview03.gif" alt="Water Quality App Preview" style="width:70%;">
@@ -152,16 +150,3 @@ Ultimately, the goal is to enable **faster, scalable, and accessible WQI classif
 <p align="center"><em>A lightweight, user-friendly Streamlit app for fast WQI predictions.</em></p>
 
 ---
-
-## How to Use
-
-*Add instructions here for setting up, installing dependencies, and running the app.*
-
----
-
-## Acknowledgement
-
-Thanks to the open datasets and open-source libraries that enabled this project.
-
----
-
