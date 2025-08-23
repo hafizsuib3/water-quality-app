@@ -141,7 +141,7 @@ Ultimately, the goal is to enable **faster, scalable, and accessible WQI classif
 
 ---
 
-## Sneak Peek of the App 🌊
+## Sneak Peek of the App 
 
 <p align="center">
   <img src="Preview04.gif" alt="Water Quality App Preview" style="width:70%;">
