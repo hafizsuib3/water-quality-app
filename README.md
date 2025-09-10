@@ -124,7 +124,7 @@ Ultimately, the goal is to enable **faster, scalable, and accessible WQI classif
 
 - **Automated classification** of water quality samples into classes **A–E**.  
 - **Balanced training** with SMOTE improved recognition of minority classes.  
-- **Best model** (experiment-dependent, e.g., Random Forest or MLP) selected based on test accuracy.  
+- **Best model** selected based on test accuracy.  
 - **Deployment** allows non-technical users to interact with the model via a web interface.  
 
 > *(You can update this section with actual test accuracy, F1-scores, and confusion matrix images after running your experiments.)*
@@ -140,10 +140,6 @@ Ultimately, the goal is to enable **faster, scalable, and accessible WQI classif
 **Feature Variability**  
 - Challenge: Column names and units differ across datasets.  
 - Solution: Standardized naming and included fallback WQI computation.  
-
-**Generalization**  
-- Challenge: Model may overfit to one region.  
-- Solution: Apply cross-validation and maintain strict train/test split.  
 
 **Usability**  
 - Challenge: Researchers need an easy interface.  
