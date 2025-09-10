@@ -59,6 +59,7 @@ This project aims to:
 3. **Deploy the trained model** via a simple, user-friendly **Streamlit web application**.  
 
 Ultimately, the goal is to enable **faster, scalable, and accessible WQI classification** that can support researchers, policymakers, and water resource managers.
+ 
 
 ---
 
@@ -85,6 +86,7 @@ Ultimately, the goal is to enable **faster, scalable, and accessible WQI classif
 
 - If **WQI** and **WQI_Classification** are not present in the dataset, they are automatically calculated by the training script using standard permissible and ideal limits.
 
+- **Source:** [data.gov.in](https://data.gov.in) (Government of India Open Data Platform)
 ---
 
 ## Methodology
