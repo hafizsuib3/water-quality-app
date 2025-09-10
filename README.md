@@ -22,6 +22,14 @@ It includes:
 - A training pipeline (`train_best_model.py`) that evaluates several classifiers and saves the best model.  
 - A **Streamlit web app** (`app.py`) for interactive inference, enabling users to upload data and view predicted WQI classes.  
 
+*WQI Classes and Labels:*  
+
+- *A (Excellent):*  
+- *B (Good):*  
+- *C (Poor):*
+- *D (Very Poor):*  
+- *E (Unsuitable for drinking):* 
+
 ---
 
 ## Background Overview
